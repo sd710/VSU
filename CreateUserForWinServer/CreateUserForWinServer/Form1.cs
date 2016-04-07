@@ -474,7 +474,7 @@ namespace CreateUserForWinServer
 
                 if (comBTypeAccount.SelectedIndex != 4 && comBTypeAccount.SelectedIndex != 0)
                 {
-                    FileName = "AllLoginPass_" + OtherAccount.Directory[2] + ".txt";
+                    FileName = "AllLoginPass_" + OtherAccount.Directory[2] + ".rtf";
                     List<OtherAccount> LAccount = new List<OtherAccount>();
 
                     if (CreateListAccount(LAccount))
@@ -500,7 +500,7 @@ namespace CreateUserForWinServer
                  }
                 else
                 {
-                    FileName = "AllLoginPass_" + OtherAccount.Directory[1] + "_" + OtherAccount.Directory[2] + "_" + OtherAccount.Directory[3] + ".txt";
+                    FileName = "AllLoginPass_" + OtherAccount.Directory[1] + "_" + OtherAccount.Directory[2] + "_" + OtherAccount.Directory[3] + ".rtf";
                     List<Student> LStudent = new List<Student>();
                     if (CreateListAccount(LStudent))
                     {
